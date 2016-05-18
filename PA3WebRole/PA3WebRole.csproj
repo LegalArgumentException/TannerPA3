@@ -100,7 +100,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="index.html" />
     <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\PA3WebRole20160517062825 - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -117,6 +119,7 @@
       <DependentUpon>Admin.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Stat.cs" />
     <Compile Include="URLProperties.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebRole.cs" />
